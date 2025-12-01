@@ -60,9 +60,9 @@ export async function createAlbumPage(
     ctx.font = `bold 100px 'Caveat', cursive`;
     ctx.fillText('Generated with Past Forward', canvasWidth / 2, 150);
 
-    ctx.font = `50px 'Roboto', sans-serif`;
+    ctx.font = `italic 50px 'Roboto', sans-serif`;
     ctx.fillStyle = '#555';
-    ctx.fillText('on Google AI Studio', canvasWidth / 2, 220);
+    ctx.fillText('Created by Pierre Rouleau', canvasWidth / 2, 220);
 
     // 3. Load all the polaroid images concurrently
     const decades = Object.keys(imageData);
